@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: silver
+    database: my2ndproject-479707
+    schema: Silver
+    tables:
+      - name: customers_silver
+      - name: order_silver
+      - name: order_items_silver
+      - name: products_silver
+      - name: store_sales_silver
+      - name: stores_silver

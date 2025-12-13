@@ -1,0 +1,44 @@
+# --------------------
+# Virtual environments (ALL)
+# --------------------
+venv/
+.venv/
+*/venv/
+*/.venv/
+
+# Explicit dbt & AI venvs (extra safety)
+dbt/dbt-venv/
+AI_Agent/venv/
+
+# --------------------
+# Python cache
+# --------------------
+__pycache__/
+*.pyc
+
+# --------------------
+# Environment variables
+# --------------------
+.env
+
+# --------------------
+# dbt generated artifacts
+# --------------------
+dbt/**/target/
+dbt/**/logs/
+
+# --------------------
+# OS / Editor
+# --------------------
+.vscode/
+.DS_Store
+
+
+# --------------------
+# Secrets & credentials
+# --------------------
+config/.env
+config/keys/
+config/keys/*.json
+
+

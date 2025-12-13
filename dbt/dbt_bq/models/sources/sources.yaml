@@ -1,0 +1,11 @@
+sources:
+  - name: bronze_bq
+    database: my2ndproject-479707
+    schema: dw_ecomm
+    tables: 
+      - name: customers_bronze
+      - name: order_items_bronze
+      - name: orders_bronze
+      - name: products_bronze
+      - name: store_sales_bronze
+      - name: stores_bronze
